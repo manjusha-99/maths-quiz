@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+section h1{
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px white;
+    animation: zooms 1s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes zooms{
+    from{transform: translate(-20px);}
+    to{transform: translate(20px);}
+}
+.holder{
+    background-color: darkgoldenrod;
+    padding: 20px;
+    border-top: 10px solid black;
+    float: none;
+    border-radius: 20px;
+    text-align: left;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
